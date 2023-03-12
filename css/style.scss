@@ -72,9 +72,33 @@ body {
       }
     }
 }
-.tagline {
-		&__figure {}
+
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url('../image/image (1).jpg');
+  background-size: cover;
+  background-position: center center;
+
+  .container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+
+  &__message {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+  }
 }
+
 .PiperCoin {
 		&__text {}
     &__figure {}

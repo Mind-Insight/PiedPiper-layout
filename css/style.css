@@ -74,4 +74,28 @@ body {
 }
 .problem__text span {
   font-weight: 900;
+}
+
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url("../image/image (1).jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.hero .container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.hero__message {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
