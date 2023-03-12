@@ -1,5 +1,5 @@
 @import url("normalize.css");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 * {
   margin: 0;
 }
@@ -11,7 +11,7 @@ body {
 
 .wrapper {
   font-family: "Roboto";
-  overflow: hidden;
+  position: relative;
 }
 
 .header {
@@ -20,6 +20,10 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .nav__link {
@@ -124,4 +128,45 @@ body {
   font-size: 32px;
   line-height: 38px;
   margin: 40px 450px 0 450px;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+.Team {
+  margin-top: 90px;
+  background-color: #EEEEEE;
+}
+.Team__title {
+  display: flex;
+  justify-content: center;
+  height: 78px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+}
+.Team__members {
+  display: flex;
+  max-width: 700px;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 50%;
+}
+.Team__members .member__name {
+  color: #007765;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.Team__members .member__role {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.Team__members .member img {
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
