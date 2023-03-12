@@ -98,4 +98,30 @@ body {
   line-height: 56px;
   text-align: center;
   color: #fff;
+}
+
+.PiperCoin__title {
+  margin-top: 48px;
+  height: 75px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PiperCoin__logo {
+  background: url("../image/PPC Logo.jpg") no-repeat;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 16px 450px 0 450px;
+  padding-left: 170px;
+}
+.PiperCoin__text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 40px 450px 0 450px;
 }/*# sourceMappingURL=style.css.map */
