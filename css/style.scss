@@ -1,1 +1,47 @@
 @import url('normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+.wrapper {
+  font-family: "Roboto";
+  overflow: hidden;
+}
+.header {
+  height: 84px;
+  background: #007765;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav {
+		&__link {
+      font-size: 24px;
+      color: white;
+      text-decoration: none;
+      border-right: 2px solid white;
+      padding: 0 15px;
+    }
+    &__link:last-child {
+      border: none;
+    }
+}
+.welcome {
+		&__figure {}
+}
+.problem {
+		&__header {}
+		&__text {}
+}
+.tagline {
+		&__figure {}
+}
+.PiperCoin {
+		&__text {}
+    &__figure {}
+}
+.Team {
+		&__name {}
+		&__profession {}
+}
+.footer {
+		&__text {}
+}

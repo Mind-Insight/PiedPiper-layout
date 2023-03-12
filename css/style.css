@@ -1,1 +1,25 @@
 @import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+.wrapper {
+  font-family: "Roboto";
+  overflow: hidden;
+}
+
+.header {
+  height: 84px;
+  background: #007765;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__link {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  border-right: 2px solid white;
+  padding: 0 15px;
+}
+.nav__link:last-child {
+  border: none;
+}/*# sourceMappingURL=style.css.map */
