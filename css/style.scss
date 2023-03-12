@@ -1,8 +1,12 @@
 @import url('normalize.css');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 * {
   margin: 0;
+}
+body {
+  max-width: 2011px;
+  max-height: 2209px;
 }
 .wrapper {
   font-family: "Roboto";
@@ -30,6 +34,9 @@
 .welcome {
   position: relative;
   text-align: center;
+  height: 403px;
+  background: url('../image/image.jpg') no-repeat;
+  background-size: cover;
     &__centered {
       position: absolute;
       top: 50%;
@@ -41,8 +48,29 @@
     }
 }
 .problem {
-		&__header {}
-		&__text {}
+  height: 719px;
+  margin-top: 48px;
+		&__header {
+      color: #007765;
+      font-size: 64px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: 0 450px;
+    }
+		&__text {
+      margin-top: 17px;
+      height: 448px;
+      font-weight: 400;
+      font-size: 32px;
+      display: flex;
+      justify-content: center;
+      margin: 0 450px;
+      line-height: 38px;
+      span {
+        font-weight: 900;
+      }
+    }
 }
 .tagline {
 		&__figure {}
