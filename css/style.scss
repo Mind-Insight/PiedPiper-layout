@@ -148,20 +148,20 @@ body {
     color:#007765;
   }
   &__members {
+    height: 845px;
+    width: 1700px;
     display: flex;
-
-    max-width: 700px;
-    justify-content: center;
-    justify-content: space-around;
     flex-wrap: wrap;
-    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
     .member {
+      padding-left: 350px;
+      }
       &__name {
         color:#007765;
         font-size: 24px;
         font-weight: 700;
         line-height: 20px;
-      }
       &__role {
         font-style: italic;
         font-weight: 400;
@@ -178,5 +178,15 @@ body {
 
 
 .footer {
-		&__text {}
+  background-color: #333333;
+  height: 176px;
+		&__text {
+      padding: 50px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+    }
 }

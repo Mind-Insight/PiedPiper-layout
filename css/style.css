@@ -148,20 +148,23 @@ body {
   color: #007765;
 }
 .Team__members {
+  height: 845px;
+  width: 1700px;
   display: flex;
-  max-width: 700px;
-  justify-content: center;
-  justify-content: space-around;
   flex-wrap: wrap;
-  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
 }
-.Team__members .member__name {
+.Team__members .member {
+  padding-left: 350px;
+}
+.Team__members__name {
   color: #007765;
   font-size: 24px;
   font-weight: 700;
   line-height: 20px;
 }
-.Team__members .member__role {
+.Team__members__name__role {
   font-style: italic;
   font-weight: 400;
   font-size: 18px;
@@ -169,4 +172,18 @@ body {
 }
 .Team__members .member img {
   border-radius: 50%;
+}
+
+.footer {
+  background-color: #333333;
+  height: 176px;
+}
+.footer__text {
+  padding: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
