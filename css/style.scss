@@ -105,6 +105,7 @@ body {
 }
 
 .PiperCoin {
+  padding-bottom: 80px;
   &__title {
     margin-top: 48px;
     height: 75px;
@@ -136,9 +137,10 @@ body {
 }
 
 .Team {
-  margin-top: 90px;
+  height: 800px;
   background-color: #EEEEEE;
-  &__title{
+  &__title {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     height: 78px;
@@ -148,45 +150,55 @@ body {
     color:#007765;
   }
   &__members {
-    height: 845px;
-    width: 1700px;
+    padding: 100px 450px 100px 450px;
+  }
+  &__start-members {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    .member {
-      padding-left: 350px;
-      }
-      &__name {
-        color:#007765;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 20px;
-      &__role {
-        font-style: italic;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 21px;
-      }
-    }
-    .member img {
-      border-radius: 50%;
-    }
+    justify-content: space-between;
+  }
+  &__end-members {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+}
+
+.member {
+  width: 200px;
+  & img {
+    padding-left: 16px;
+    border-radius: 50%;
+  }
+
+  &__name {
+    color:#007765;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  &__role {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
   }
 }
 
 
 
 .footer {
-  background-color: #333333;
-  height: 176px;
+    padding: 50px 0 62px;
+    background: #333333;
+    text-align: center;
+    color: #ffffff;
 		&__text {
-      padding: 50px;
-      font-weight: 400;
+      padding: 0 28%;
       font-size: 18px;
-      line-height: 21px;
-      color: #fff;
-      display: flex;
-      justify-content: center;
     }
 }
